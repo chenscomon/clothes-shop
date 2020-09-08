@@ -4,33 +4,33 @@ const INIT_STATE = {
             title: 'hats',
             imageUrl: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
             id: 1,
-            linkUrl: 'hats'
+            linkUrl: 'shop/hats'
         },
         {
             title: 'jackets',
             imageUrl: 'https://images.unsplash.com/photo-1544022613-e87ca75a784a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
             id: 2,
-            linkUrl: 'jackets'
+            linkUrl: 'shop/jackets'
         },
         {
             title: 'sneakers',
             imageUrl: 'https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
             id: 3,
-            linkUrl: 'sneakers'
+            linkUrl: 'shop/sneakers'
         },
         {
             title: 'women',
             imageUrl: 'https://images.unsplash.com/photo-1552664199-fd31f7431a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
             id: 4,
             size: 'large',
-            linkUrl: 'women'
+            linkUrl: 'shop/womens'
         },
         {
             title: 'men',
             imageUrl: 'https://images.unsplash.com/photo-1551794840-8ae3b9c181f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
             id: 5,
             size: 'large',
-            linkUrl: 'man'
+            linkUrl: 'shop/mens'
         }
     ]
 }
