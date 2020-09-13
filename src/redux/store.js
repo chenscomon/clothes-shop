@@ -5,6 +5,10 @@ import { persistStore } from 'redux-persist';
 
 const middlewares = [logger];
 
+// if(process.env.NODE_EVN === "dev"){
+//     middlewares.push('looger');
+// }
+
 export const store = createStore(rootReducer, applyMiddleware(...middlewares));
 
 export const persistor = persistStore(store);
